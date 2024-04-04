@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website Title</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css" media="screen">
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html">HOME</a>
+    <a href="shop.html">SHOP</a>
+    <a href="fitnesscentre.html">FITNESS CENTRE</a>
+    <a href="aboutus.html">ABOUT US</a>
+  </header>
+  <main>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="mecurial" class="object-cover object-center w-full h-full block" src="images/TS40.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-2">FOOTBALL JERSY</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">ENGLAND MEN'S</h2>
+                <p class="mt-1">$28.99</p>
+              </div>
+              <button onclick="shop.html"  type="submit" class="button button-block" /><a href="shop.html">View in Shop</a></button>
+            </div>
+            </div>
+        </div>
+      </section>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="mecurial" class="object-cover object-center w-full h-full block" src="images/tr81.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-2">FULL TRACKSUIT</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Nike Male</h2>
+                <p class="mt-1">$69.99</p>
+              </br>
+              </div>
+              <button onclick="shop.html" id="signupfirst" type="submit" class="button button-block" /><a href="shop.html">View in Shop</a></button>
+            </div>
+            </div>
+        </div>
+      </section>
+     
+    
+    </main>
+  
+  <main>
+    <section class="about-us">
+      <p>Step up your game at SANTA SPORTS, your one-stop shop for all things sports apparel! We offer a wide selection of high-quality sports boots for every field, track, or court. Whether you're a seasoned athlete or just starting out, find the perfect footwear for peak performance. Don't forget to rep your team in style with our extensive collection of jerseys, available in all the latest designs and colors. Visit us today and get ready to dominate!</p>
+    </section>
+  </main>
+  <main>
+    <div class="hero-slider">
+      <div class="slide">
+        <img src="images/10.jpg" alt="Slide 1 Image">
+      </div>
+      <div class="slide">
+        <img src="images/8.jpg" alt="Slide 2 Image">
+      </div>
+    </div>  
+  </main>
+  <main>
+  <section class="about-us">
+    <p>Step up your game at [Shop Name], your one-stop shop for all things sports apparel! We offer a wide selection of high-quality sports boots for every field, track, or court. Whether you're a seasoned athlete or just starting out, find the perfect footwear for peak performance. Don't forget to rep your team in style with our extensive collection of jerseys, available in all the latest designs and colors. Visit us today and get ready to dominate!</p>
+  </section>
+</main>
+<main>
+  <div class="hero-slider">
+    <div class="slide">
+      <img src="images/wall3.jpg" alt="Slide 1 Image">
+    </div>
+    <div class="slide">
+      <img src="images/wall4.jpg" alt="Slide 2 Image">
+    </div>
+  </div>  
+</main>
+  <footer class="footer">
+    <p>&copy; 2024 SANTA SPORTS</p>
+    <div class="row row--center row--margin">
+      <div class="col-md-4 ">
+          <div class="price-box__wrap">
+              <div class="price-box__img"></div>
+              <h1 class="price-box__title">
+                  TALK TO US
+              </h1>
+              <ul class="price-box__list">
+                  <li class="price-box__list-el">Gmail  <a href="gmail.com">  santasports@shop.co</a></li>
+                  <li class="price-box__list-el">Instagram <a href="instagram.com"> santas_ports</a></li>
+                  <li class="price-box__list-el">Facebook   <a href="facebook.com"> SantaSports</a></li>
+                  <li class="price-box__list-el">Twitter  <a href="twitter.com">@santa_sports</a> </li>
+              </ul>
+              <div class="price-box__btn">
+                  <a class="btn btn--purple btn--width">24 HOUR CUSTOMER SERVICE</a>
+              </div>
+          </div>
+      </div>
+     
+
+  </div>
+</div>
+  </footer>
+</body>
+<script src="main.js">
+  function showConfirmationMessage() {
+    var message = "Would you like to proceed?"; // Replace with your desired message
+    var confirmation = confirm(message);
+  
+    if (confirmation) {
+      // User clicked "OK"
+      alert("Message box with OK clicked!"); // Replace with your action for "OK"
+    } else {
+      // User clicked "Cancel"
+      alert("Message box with Cancel clicked!"); // Replace with your action for "Cancel"
+    }
+  }
+  
+  // Call the function when a button is clicked (example)
+  document.getElementById("signupfirst").addEventListener("click", showConfirmationMessage);
+</script>
+</html>

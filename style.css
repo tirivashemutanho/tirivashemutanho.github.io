@@ -1,0 +1,508 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300);
+ *, *:before, *:after {
+	 box-sizing: border-box;
+}
+ body .lsign {
+  height: 100vh;
+  background-image: url("images/wall2.jpg");
+	
+   overflow-y: hidden!important;
+	 font-family: 'Poppins', sans-serif;
+}
+ a {
+	 text-decoration: none;
+	 color: #e7781d;
+	 transition: 0.5s ease;
+}
+ a:hover {
+	 color: #e7781d;
+     image-rendering:optimizeSpeed;
+     size: adjust 200px;
+}
+ .form {
+    background-color: rgba(0, 0, 255, 0.01); /* Adjust values for color and opacity */ /* Adjust values for color and opacity */
+	 padding: 40px;
+	 max-width: 600px;
+	 margin: 40px auto;
+	 border-radius: 15px;
+	 box-shadow: 0 4px 10px 4px rgba(19, 35, 47, .3);
+}
+ .tab-group {
+	 list-style: none;
+	 padding: 0;
+	 margin: 0 0 40px 0;
+}
+ .tab-group:after {
+	 content: "";
+	 display: table;
+	 clear: both;
+}
+ .tab-group li a {
+	 display: block;
+	 text-decoration: none;
+	 padding: 15px;
+	 background: rgba(160, 179, 176, .25);
+	 color: #a0b3b0;
+	 font-size: 20px;
+	 float: left;
+	 width: 48%;
+	 text-align: center;
+	 cursor: pointer;
+	 transition: 0.5s ease;
+}
+ .tab-group li a:hover {
+	 background: #e7781d;
+	 color: #fff;
+}
+ .tab-group .active a {
+	 background: #e7781d;
+	 color: #fff;
+}
+ .tab-content > div:last-child {
+	 display: none;
+}
+.tab-group{
+  border-radius: 15px!important;
+  margin: 20px;
+}
+ h1 {
+	 text-align: center;
+	 color: #fff;
+	 font-weight: 300;
+	 margin: 0 0 40px;
+}
+ input, textarea {
+	 font-size: 17px;
+	 display: block;
+	 width: 100%;
+	 height: 100%;
+	 padding: 5px 10px;
+	 background: none;
+	 background-image: none;
+	 border: 1px solid #e7781d;
+	 color: #fff;
+	 border-radius: 6px;
+	 transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+ textarea {
+	 border: 2px solid #e7781d;
+	 resize: vertical;
+}
+ .field-wrap {
+	 position: relative;
+	 margin-bottom: 40px;
+}
+ .top-row:after {
+	 content: "";
+	 display: table;
+	 clear: both;
+}
+ .top-row > div {
+	 float: left;
+	 width: 48%;
+	 margin-right: 4%;
+}
+ .top-row > div:last-child {
+	 margin: 0;
+}
+ .button {
+	 border: 0;
+	 outline: none;
+	 border-radius: 15px;
+	 padding: 15px 0;
+	 font-size: 20px;
+	 font-weight: 400;
+	 letter-spacing: 0.1em;
+	 background: #e7781d;
+   cursor: pointer;
+	 color: #fff;
+	 transition: all 0.5s ease;
+	 -webkit-appearance: none;
+}
+ .button:hover, .button:focus {
+	 background: #25160a;
+}
+ .button-block {
+	 display: block;
+	 width: 100%;
+}
+ .forgot {
+	 margin-top: -20px;
+	 text-align: right;
+}
+ 
+
+.navbar {/* Basic styles for the navbar and footer */
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex; /* Makes navbar items horizontal */
+    justify-content: space-between;
+    padding-bottom: 80px;
+
+  }
+  
+  .navbar a {
+    color: rgb(202, 200, 200);
+    font-size: larger;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 520px;
+    justify-content: space-between; 
+   &:hover{
+    letter-spacing: 4px;
+    color: #e7781d;
+   }
+  }
+ 
+  
+  /* Code for navbar with background image */
+  .navbar {
+    background-image: url("images/100.JPG"); /* Replace with your image path */
+   background-size:auto;
+    background-repeat: no-repeat; /* Prevents image from tiling */
+    background-position: inherit; /* Center the image horizontally */
+    padding: 10px;
+    display: flex; /* Makes navbar items horizontal */
+    background-color: rgba(0, 0, 255, 0.01); /* Text color to contrast with background image */
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  /* Code for footer positioning */
+  body {
+    min-height: 100vh; /* Set minimum height to viewport height */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer {
+    background-color: #000000;
+    color:#f0f0f0;
+    padding: 65px;
+    text-align: center;
+   /* flex-grow: 0;  Prevent footer from expanding */
+    overflow-x: visible;
+    width: 100%;
+  }
+  .footer .h-48{
+  
+    justify-content: space-between;
+  }
+  main{
+    padding-bottom: 60px;
+  }
+  .navbar2 {/* Basic styles for the navbar and footer */
+    background-color: #c69871;
+    padding: 10px;
+    display: flex; /* Makes navbar items horizontal */
+    justify-content: space-between;
+    padding-bottom: 80px;
+
+  }
+  
+  .navbar2 a {
+    color: rgb(40, 40, 40);
+    font-size: larger;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    justify-content: space-between; 
+   &:hover{
+    letter-spacing: 4px;
+    color: #e7781d;
+   }
+  }
+ 
+  
+  /* Code for navbar with background image */
+  .navbar2 {
+   background-size:auto;
+    background-repeat: no-repeat; /* Prevents image from tiling */
+    background-position: inherit; /* Center the image horizontally */
+    padding: 10px;
+    display: flex; /* Makes navbar items horizontal */
+    background-color: rgba(0, 0, 255, 0.01); /* Text color to contrast with background image */
+  }
+  
+  .navbar2 a {
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  /* Css code for the shop page*/
+  .container {
+    
+    max-width: 200px;
+    max-height: 300px;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+  }
+  main{
+    display: flex;
+    justify-content: center;
+    overflow-y: overlay;
+    overflow-x: auto;
+  }
+  content{
+    padding: auto;
+    background-color: #424242;
+  }
+  section{
+    background-color: #fefefe;
+    padding: 60px;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    justify-content: space-between;
+}
+content .section{
+    justify-content: space-between;
+   
+}
+img{
+    size: inherit;
+    object-fit: contain;
+}
+jersy1 .section{
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 200px;
+}
+section .button {
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    background: #1c1d1d;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+section .button:hover, .button:focus {
+    background: #e7781d;
+}
+/*----code forcart-----*/
+/* Style the hero slider container */
+.hero-slider {
+    overflow: hidden; /* Hide overflowing content */
+    position: relative; /* Allow absolute positioning for slides */
+    width: 100%; /* Full viewport width */
+    height: 400px; /* Set your desired hero height */
+  }
+  
+  /* Style the individual slides */
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Match hero slider height */
+    opacity: 0; /* Initially hide slides */
+    transition: opacity 0.5s ease-in-out; /* Smooth transition on change */
+  }
+  
+  /* Style the first slide to be visible initially */
+  .slide:first-child {
+    opacity: 1;
+  }
+  
+  /* Animation for sliding effect (replace with your desired animation) */
+  .hero-slider .slide:not(:first-child) {
+    animation: slide 5s infinite alternate ease-in-out;
+  }
+  
+  @keyframes slide {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Style the image within each slide */
+  .slide img {
+    width: 100%; /* Cover the entire slide */
+    height: 100%; /* Cover the entire slide */
+    object-fit: cover; /* Ensure image fills the slide area */
+  }
+  
+p{
+    padding: -10px;
+    letter-spacing: 1px;
+    word-spacing: normal;
+}
+/* Search Bar Styles */
+.navbar__search {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-color: #858585;
+    border-style:solid;
+    border-radius: 24px;
+    padding: 5px 10px;
+    margin-right: 20px;
+    justify-content: space-between;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+  
+  .navbar__search__category {
+    padding: 5px 8px;
+    border: none;
+    border-radius:1rem;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    /*Removedefaultoutlineonselect*/
+    -webkit-border-radius:1rem;
+    -moz-border-radius:1rem;
+    -ms-border-radius:1rem;
+    -o-border-radius:1rem;
+}
+  
+  .navbar__search__input {
+    padding: 5px 8px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    font-size: 16px;
+    color: #333;
+    width: 180px; /* Adjust width as needed */
+    outline: none; /* Remove default outline on input */
+  }
+  
+  .navbar__search__button {
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .navbar__search__button i {
+    font-size: 18px;
+    color: #333;
+  }
+  i{
+    font-size: small;
+    color: #e7781d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  /* Hero Slider Styles */
+.hero-slider {
+    position: relative; /* Enable absolute positioning for child elements */
+    margin: 0 auto; /* Center the slider horizontally */
+    width: 70%; /* Adjust width as needed */
+    height: 540px; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Optional background color */
+    overflow-x:visible; /* Hide overflowing content (optional) */
+  }
+  
+  .hero-slider .slide {
+    position: absolute; /* Absolutely position slides within the slider */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .hero-slider .slide img {
+    width: 100%; /* Ensure image fills the entire slide */
+    height: 100%; /* Ensure image fills the entire slide */
+    object-fit: cover; /* Crop image to fit the slide while maintaining aspect ratio */
+  }
+  
+  .hero-slider .slide:target { /* Target the currently displayed slide */
+    opacity: 1; /* Make the targeted slide visible */
+  }
+  
+  /* Text styles (optional) */
+  .hero-slider-text {
+    position: absolute; /* Position text absolutely within the slider */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center text horizontally and vertically */
+    color: white; /* Text color (adjust as needed) */
+    text-align: center; /* Center text alignment */
+  }
+  /* About Us Section Styles */
+.about-us {
+    background-color: #ffffff;
+    padding: 60px;
+    padding-bottom: 120px;
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 800px; /* Adjust width as needed */
+  }
+  
+  .about-us p {
+    font-family: 'Open Sans', sans-serif; /* Example font, adjust as desired */
+    font-size: 16px;
+    line-height: 1.5; /* Adjust line spacing as needed */
+    color: #333;
+  }
+  li{
+    word-spacing: 18px;
+    padding-bottom: 8px;
+    align-items: center;
+  }
+  section .hero {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-info {
+    margin: 50px auto;
+    width: 50%;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+section .h1, .h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section .ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+section .li {
+    margin-bottom: 10px;
+}
+
+section .a {
+    text-decoration: none;
+    color: black;
+}
